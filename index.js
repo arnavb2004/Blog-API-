@@ -8,27 +8,27 @@ const port = 4000;
 let posts = [
   {
     id: 1,
-    title: "The Rise of Decentralized Finance",
+    title: "Lorem ipsum dolor sit amet",
     content:
-      "Decentralized Finance (DeFi) is an emerging and rapidly evolving field in the blockchain industry. It refers to the shift from traditional, centralized financial systems to peer-to-peer finance enabled by decentralized technologies built on Ethereum and other blockchains. With the promise of reduced dependency on the traditional banking sector, DeFi platforms offer a wide range of services, from lending and borrowing to insurance and trading.",
-    author: "Alex Thompson",
-    date: "2023-08-01T10:00:00Z",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis tortor mauris. Duis at euismod libero, nec tempus magna. Curabitur id orci ut libero fermentum sagittis. Donec velit turpis, fermentum a rhoncus in, finibus in purus. Nunc tristique faucibus metus, ut mollis velit luctus ac. Cras vehicula sit amet dui ac placerat. Nullam in porta mi. Cras efficitur vehicula mattis. Ut laoreet, erat vitae semper porttitor, quam lorem consequat nisi, sit amet porta eros erat non tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis suscipit urna, in bibendum lacus rhoncus non. Praesent lorem mauris, maximus sit amet purus vel, faucibus sollicitudin sem. Suspendisse fringilla consequat arcu, in condimentum ex.",
+    author: "Mark",
+    date: "02-06-24",
   },
   {
     id: 2,
-    title: "The Impact of Artificial Intelligence on Modern Businesses",
+    title: "Vestibulum vitae tristique leo. Morbi",
     content:
-      "Artificial Intelligence (AI) is no longer a concept of the future. It's very much a part of our present, reshaping industries and enhancing the capabilities of existing systems. From automating routine tasks to offering intelligent insights, AI is proving to be a boon for businesses. With advancements in machine learning and deep learning, businesses can now address previously insurmountable problems and tap into new opportunities.",
-    author: "Mia Williams",
-    date: "2023-08-05T14:30:00Z",
+      "Etiam ullamcorper auctor facilisis. Donec cursus lacus metus, at viverra nibh ullamcorper ac. Nam nec turpis placerat, tincidunt ante convallis, placerat orci. Proin faucibus massa at metus gravida, nec sodales urna imperdiet. Mauris maximus iaculis nibh, faucibus dapibus metus tristique efficitur. Vivamus tincidunt sem congue, ullamcorper turpis ut, tempor purus. Pellentesque nec magna tempus, semper quam sit amet, feugiat lorem. Maecenas a faucibus est. Etiam eros est, dignissim id sem sed, lobortis vulputate lorem. Aenean pulvinar erat ut metus porttitor ullamcorper. Pellentesque rhoncus elit vel porta viverra. Vestibulum at mi nec massa gravida imperdiet quis id libero. Etiam varius sed est at iaculis. Vivamus eget elementum tellus. Ut blandit pulvinar porttitor",
+    author: "Michael",
+    date: "01-06-24",
   },
   {
     id: 3,
-    title: "Sustainable Living: Tips for an Eco-Friendly Lifestyle",
+    title: "Fusce maximus ante quis erat euismod scelerisque.",
     content:
-      "Sustainability is more than just a buzzword; it's a way of life. As the effects of climate change become more pronounced, there's a growing realization about the need to live sustainably. From reducing waste and conserving energy to supporting eco-friendly products, there are numerous ways we can make our daily lives more environmentally friendly. This post will explore practical tips and habits that can make a significant difference.",
-    author: "Samuel Green",
-    date: "2023-08-10T09:15:00Z",
+      "Integer ut maximus quam. Sed ex urna, aliquam non volutpat non, cursus at quam. Phasellus hendrerit sapien sit amet quam congue tempus. Aliquam vitae augue ac est molestie feugiat vitae vel velit. In at ligula vel arcu sagittis auctor. Phasellus id dolor aliquet, imperdiet eros vitae, malesuada lorem. Pellentesque ut dapibus libero. Quisque nisi mi, pellentesque sed rutrum et, aliquam non massa. Aenean pretium dui vitae sem lacinia, vel elementum eros dictum. Maecenas elementum vestibulum ex. Proin odio lectus, egestas quis ex vitae, dignissim porta velit. Nullam sit amet ligula at nisl elementum ultrices vitae id nisl. Donec ac massa at velit euismod fermentum a vitae massa. Mauris nisl est, scelerisque ut est efficitur, consequat auctor sapien. Duis rutrum libero ac odio pretium, eu pellentesque lectus aliquet.",
+    author: "Samuel",
+    date: "03-06-24",
   },
 ];
 
