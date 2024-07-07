@@ -54,12 +54,15 @@ app.get("/posts/:id", (req, res) => {
 // POST a new post
 app.post("/posts", (req, res) => {
   const newId = lastId += 1;
+  const date = new Date();
+  const options = { day: '2-digit', month: '2-digit', year: '2-digit' };
+  const formattedDate = date.toLocaleDateString('en-GB', options).replace(/\//g, '-');
   const post = {
     id: newId,
     title: req.body.title,
     content: req.body.content,
     author: req.body.author,
-    date: new Date(),
+    date: formattedDate,
   };
   lastId = newId;
   posts.push(post);
